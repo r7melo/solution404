@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "path": "problems/image-resizer"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/__pycache__": true
+    },
+    "python.analysis.exclude": [
+      "**/node_modules",
+      "**/tests"
+    ],
+    "explorer.compactFolders": false
+  }
+}

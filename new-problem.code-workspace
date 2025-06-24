@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "path": "problems/new-problem"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/__pycache__": true
+    },
+    "python.analysis.exclude": [
+      "**/node_modules",
+      "**/tests"
+    ],
+    "explorer.compactFolders": false,
+
+    // Windows
+    "python.pythonPath": "${workspaceFolder:problems/new-problem}\\.venv\\Scripts\\python.exe"
+    
+    // Linux/macOS
+    // "python.pythonPath": "${workspaceFolder:problems/new-problem}/.venv/bin/python"
+  }
+}
