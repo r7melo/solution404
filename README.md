@@ -13,11 +13,11 @@ Here you'll find scripts, automations, and small projects designed to solve ever
 
 ## 📂 Index of solved problems
 
-| Problem                          | Language   | Link                     |
-|----------------------------------|------------|--------------------------|
-| Data Structures                  | C          | [View solution](./data-structures) |
-| Batch Image Resizer              | Python     | [View solution](./image-resizer) |
-| Example Problem 2 (Add your own) | JavaScript | [View solution](./example-problem-2) |
+| Problem         | Language  | Link                                      |
+|-----------------|-----------|-------------------------------------------|
+| Data Structures | C         | [View solution](./data-structures)        |
+| Forca Minimal   | C         | [View solution](./problems/forca-minimal) |
+| Template        | Python    | [View solution](./problems/new-problem)   |
 
 ---
 
@@ -31,7 +31,7 @@ This repo is about **solving real problems together**.
 
 ## 🤝 Contact
 
-[Your LinkedIn](https://linkedin.com/in/your-profile) | [Your GitHub](https://github.com/your-username)
+[My LinkedIn](https://www.linkedin.com/in/romari-melo-dev/) 
 
 ---
 
