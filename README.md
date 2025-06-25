@@ -15,7 +15,7 @@ Here you'll find scripts, automations, and small projects designed to solve ever
 
 | Problem         | Language  | Link                                      |
 |-----------------|-----------|-------------------------------------------|
-| Data Structures | C         | [View solution](./data-structures)        |
+| Data Structures | C         | [View solution](./problems/data-structures)        |
 | Forca Minimal   | C         | [View solution](./problems/forca-minimal) |
 | Template        | Python    | [View solution](./problems/new-problem)   |
 
