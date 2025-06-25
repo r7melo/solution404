@@ -13,9 +13,10 @@ Here you'll find scripts, automations, and small projects designed to solve ever
 
 ## 📂 Index of solved problems
 
-| Problem                          | Language | Link                     |
-|---------------------------------|----------|--------------------------|
-| Batch Image Resizer              | Python   | [View solution](./image-resizer) |
+| Problem                          | Language   | Link                     |
+|----------------------------------|------------|--------------------------|
+| Data Structures                  | C          | [View solution](./data-structures) |
+| Batch Image Resizer              | Python     | [View solution](./image-resizer) |
 | Example Problem 2 (Add your own) | JavaScript | [View solution](./example-problem-2) |
 
 ---
