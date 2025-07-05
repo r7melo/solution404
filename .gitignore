@@ -9,3 +9,6 @@ dist/
 build/
 .vscode/
 forca-minimal/output/
+problems/data-structures/src/output/
+problems/data-structures/assets/output/
+problems/data-structures/tests/output/

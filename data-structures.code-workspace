@@ -4,5 +4,11 @@
       "path": "problems/data-structures"
     }
   ],
-  "settings": {}
+  "settings": {
+    "files.associations": {
+      "binomial-heap.h": "c",
+      "stdlib.h": "c",
+      "stdio.h": "c"
+    }
+  }
 }
