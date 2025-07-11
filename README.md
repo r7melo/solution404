@@ -13,10 +13,11 @@ Here you'll find scripts, automations, and small projects designed to solve ever
 
 ## 📂 Index of solved problems
 
-| Problem                | Language  | Link                          |
-|------------------------|-----------|-------------------------------|
-| Forca Minimal | C      | [View solution](./problems/forca-minimal) |
-| Template      | Python | [View solution](./problems/new-problem)   |
+| Problem         | Language  | Link                                      |
+|-----------------|-----------|-------------------------------------------|
+| Data Structures | C         | [View solution](./problems/data-structures)        |
+| Forca Minimal   | C         | [View solution](./problems/forca-minimal) |
+| Template        | Python    | [View solution](./problems/new-problem)   |
 
 ---
 
