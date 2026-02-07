@@ -1,5 +1,4 @@
 N = 9
-matriz = [[None] * (N + 1) for _ in range(N + 1)]
 
 arestas = [
     (1, 2, 1), 
@@ -19,18 +18,37 @@ arestas = [
     (8, 9, 10)
 ]
 
+grafo = [[None]*(N+1) for _ in range(N+1)]
+
+destinos_i0 = lambda i0: [i for i, x in enumerate(grafo[i0]) if x != None]
+
 for u, v, w in arestas:
-    matriz[u][v] = w
+    grafo[u][v] = w
+
+def melhor_caminho(i0, T, caminhada=None):
+
+    if caminhada is None:
+        caminhada = {'caminho':[i0], 'distancia':0}
+
+    if i0 == T: 
+        print(caminhada)
+        return caminhada
+
+    cmns = []
+    for i1 in destinos_i0(i0):
+
+        cmn = caminhada.copy()
+
+        cmn['caminho'] = cmn['caminho'] + [i1]
+        cmn['distancia'] = grafo[i0][i1] + cmn['distancia']
+        cmns.append(melhor_caminho(i1, T, cmn))
+
+
+    return min(cmns, key=lambda x: x['distancia'])
+    
 
 
 
-
-
-
-
-
-
-
-
-
-print(matriz)
+mc = melhor_caminho(1, 9)
+print("Melhor Caminho ===")
+print(mc)
